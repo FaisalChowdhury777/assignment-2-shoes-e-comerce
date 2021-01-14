@@ -27,7 +27,16 @@ body {
   font-weight: 600;
   margin-top: 80px;
 }
-
+.card img {
+  width: 200px;
+}
+.cardIn {
+  border-radius: 10px;
+}
+.card {
+  width: 18rem;
+  border: none !important;
+}
 @media screen and (max-width: 600px) {
   .desktopHead {
     display: none;
