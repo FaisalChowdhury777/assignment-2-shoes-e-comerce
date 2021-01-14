@@ -25,7 +25,8 @@ body {
   color: #363958;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .card img {
   width: 200px;
@@ -36,7 +37,31 @@ body {
 .card {
   width: 18rem;
   border: none !important;
+  box-shadow: 1px 1px 20px lightgrey;
+  border-radius: 10px !important;
 }
+.btn img {
+  width: 20px;
+}
+.price {
+  color: red;
+}
+.footerSec {
+  margin-top: 60px !important;
+}
+.featuresPic img {
+  width: 400px;
+}
+.featureBox img {
+  width: 60px;
+  margin-right: 20px;
+}
+.featureBox {
+  box-shadow: 1px 1px 20px lightgrey;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
 @media screen and (max-width: 600px) {
   .desktopHead {
     display: none;
@@ -44,7 +69,17 @@ body {
   .moboHead {
     display: block;
   }
-  .headings {
-    margin-top: 40px;
+  /* .card {
+    margin: 20px 40px;
+  } */
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .featuresPic img {
+    width: 300px;
   }
 }
